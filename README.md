@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Love</h1>
+<h1 align="center">Hi 👋, Kozi Ai</h1>
 <h3 align="center">A Backend Developer from India</h3>
 
 <p align="center">
@@ -6,12 +6,12 @@
         alt="lovekhatri" />
 </p>
 
-<h4 align="center">Connect with me</h4>
+<h4 align="center">Connect with US</h4>
 <p align="center">
         <a href="https://discord.com/users/831367868415344640" target="_blank">
                 <img src="https://skillicons.dev/icons?i=discord" height="40" alt="Discord" />
         </a>
-        <a href="https://linkedin.com/in/lovekhatri" target="_blank">
+        <a href="https://www.linkedin.com/company/kozi-ai/posts/?feedView=all" target="_blank">
                 <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" />
         </a>
         <a href="https://twitter.com/amourakalove" target="_blank">
