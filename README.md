@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, Kozi Ai</h1>
-<h3 align="center">A Backend Developer from India</h3>
+
 
 <p align="center">
     <img src="https://komarev.com/ghpvc/?username=lovekhatri&label=Profile%20views&color=0e75b6&style=flat"
@@ -23,14 +23,7 @@
     <a href="#"><img src="https://skillicons.dev/icons?i=ts,nodejs,postgres,mongodb,redis,docker" height="46" alt="main stack" /></a>
 </p>
 
-<div align="center" style="display:flex; flex-wrap:wrap; gap:10px; justify-content:center;">
-  <a href="#"><img src="/assets/skills/languages.svg" height="64" alt="languages" /></a>
-  <a href="#"><img src="/assets/skills/databases.svg" height="64" alt="databases" /></a>
-  <a href="#"><img src="/assets/skills/infra.svg" height="64" alt="infra" /></a>
-  <a href="#"><img src="/assets/skills/frameworks.svg" height="64" alt="frameworks" /></a>
-  <a href="#"><img src="/assets/skills/design.svg" height="64" alt="figma" /></a>
-  <a href="#"><img src="/assets/skills/tooling.svg" height="64" alt="tooling" /></a>
-</div>
+
 
 <h3 align="center">Stats</h3>
 <div align="center">
@@ -74,14 +67,7 @@
     <a href="https://automica.app" target="_blank">
       <img src="assets/projects/automica.svg" alt="Automica project card" width="420" height="110" style="margin:8px;" />
     </a>
-</div>
 
-<h3 align="center">Freelance Projects</h3>
-<div align="center" style="display:flex; flex-wrap:wrap; gap:16px; justify-content:center;">
-    <a href="https://apolloapp.co" target="_blank">
-      <img src="assets/projects/apolloapp.svg" alt="ApolloApp project card" width="420" height="110" style="margin:8px;" />
-    </a>
-</div>
 
 <p align="center">
     <picture>
