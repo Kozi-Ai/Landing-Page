@@ -1,0 +1,263 @@
+import {
+  About,
+  Blog,
+  Gallery,
+  Home,
+  Newsletter,
+  Person,
+  Social,
+  Work,
+} from "@/types";
+
+const person: Person = {
+  firstName: "Love",
+  lastName: "",
+  name: "Love",
+  role: "Backend Developer",
+  avatar: "/images/avatar.jpg",
+  email: "hello@lovekhatri.dev",
+  location: "Asia/Calcutta",
+  languages: ["English", "Hindi"],
+};
+
+const newsletter: Newsletter = {
+  display: false,
+  title: <>Subscribe to {person.name}'s Newsletter</>,
+  description: (
+    <>
+      I occasionally share updates on my projects, backend development tips, and
+      thoughts on building scalable systems.
+    </>
+  ),
+};
+
+const social: Social = [
+  {
+    name: "GitHub",
+    icon: "github",
+    link: "https://github.com/LoveKhatri",
+  },
+  {
+    name: "LinkedIn",
+    icon: "linkedin",
+    link: "https://www.linkedin.com/company/kozi-ai/about/",
+  },
+  {
+    name: "Email",
+    icon: "email",
+    link: `mailto:${person.email}`,
+  },
+];
+
+const home: Home = {
+  path: "/",
+  image: "/images/og/home.png",
+  label: "Home",
+  title: `${person.name}'s Portfolio`,
+  description: `Portfolio website showcasing my work as a ${person.role}`,
+  headline: <>Intelligent AI agents as your concierge for smarter workflows.
+
+</>,
+  featured: {
+    display: true,
+    title: (
+      <>
+        Recent Project: <strong className="ml-4">Gihozo</strong>
+      </>
+    ),
+    href: "/projects/Gihozo",
+  },
+  subline: (
+    <>
+      I'm Love, a backend developer passionate about creating scalable,
+      reliable, and efficient systems.
+    </>
+  ),
+};
+
+const about: About = {
+  path: "/about",
+  label: "About",
+  image: "/images/og/about.png",
+  title: `About – ${person.name}`,
+  description: `Meet ${person.name}, ${person.role} from India`,
+  tableOfContent: {
+    display: true,
+    subItems: false,
+  },
+  avatar: {
+    display: true,
+  },
+  calendar: {
+    display: false,
+    link: "",
+  },
+  intro: {
+    display: true,
+    title: "Introduction",
+    description: (
+      <>
+        Hi, I&apos;m Love — a backend developer who enjoys building the systems that
+        run behind the scenes. I work with technologies like TypeScript,
+        PostgreSQL, Redis, and Docker to create reliable, scalable backend
+        solutions. I&apos;ve contributed to projects serving millions of users and
+        also built my own products from scratch.
+      </>
+    ),
+  },
+  work: {
+    display: true,
+    title: "Work Experience",
+    experiences: [
+      {
+        company: "ApolloApp (Freelance Project)",
+        timeframe: "Aug 2024 - May 2025",
+        role: "Backend Developer",
+        achievements: [
+          <>
+            Developed backend for an AI-powered educational platform with
+            features like test plan generation, quiz/flashcard creation, and
+            assignment grading.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Vexvo Pvt. Ltd.",
+        timeframe: "May 2023 – July 2023",
+        role: "Backend Intern",
+        achievements: [
+          <>
+            Revamped two major modules (Giveaways and Tickets) for the
+            Discortics Discord bot.
+          </>,
+          <>
+            Worked on TypeScript migration and backend performance improvements.
+          </>,
+        ],
+        images: [],
+      },
+    ],
+  },
+  studies: {
+    display: true,
+    title: "Studies",
+    institutions: [
+      {
+        name: "B.Tech in Artificial Intelligence & Machine Learning",
+        description: <>Maharshi Dayanand University, Rohtak (2023-2026)</>,
+      },
+      {
+        name: "Diploma in Computer Engineering",
+        description: <>Govt. Polytechnic Sonipat (2020–2023)</>,
+      },
+    ],
+  },
+  technical: {
+    display: true,
+    title: "Technical Skills",
+    skills: [
+      {
+        title: "Backend & Languages",
+        tags: [
+          {
+            name: "JavaScript",
+            icon: "javascript",
+          },
+          {
+            name: "TypeScript",
+            icon: "typescript",
+          },
+          {
+            name: "Next.js",
+            icon: "nextjs",
+          },
+          {
+            name: "Node.js",
+            icon: "nodejs",
+          },
+          {
+            name: "Go",
+            icon: "go",
+          },
+          {
+            name: "Python",
+            icon: "python",
+          },
+        ],
+      },
+      {
+        title: "Databases & ORM",
+        tags: [
+          {
+            name: "PostgreSQL",
+            icon: "postgresql",
+          },
+          {
+            name: "MySQL",
+            icon: "mysql",
+          },
+          {
+            name: "MongoDB",
+            icon: "mongodb",
+          },
+          {
+            name: "Redis",
+            icon: "redis",
+          },
+          {
+            name: "Prisma",
+            icon: "prisma",
+          },
+          {
+            name: "Drizzle",
+            icon: "drizzle",
+          },
+        ],
+      },
+      {
+        title: "Tools & Infrastructure",
+        tags: [
+          {
+            name: "Docker",
+            icon: "docker",
+          },
+          {
+            name: "Git",
+            icon: "git",
+          },
+          {
+            name: "Nginx",
+            icon: "nginx",
+          },
+          {
+            name: "Kafka",
+            icon: "apachekafka",
+          },
+          {
+            name: "RabbitMQ",
+            icon: "rabbitmq",
+          },
+        ],
+      },
+      {
+        title: "Design & Prototyping",
+        tags: [
+          {
+            name: "Figma",
+            icon: "figma",
+          },
+        ],
+      },
+    ],
+  },
+};
+
+const work: Work = {
+  path: "/projects",
+  label: "Projects",
+  image: "/images/og/projects.png",
+  title: `Projects – ${person.name}`,
+  description: `A collection of personal, freelance, and open-source projects by ${person.name}`,
+};
+export { person, social, newsletter, home, about, work };
