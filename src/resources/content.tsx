@@ -10,9 +10,9 @@ import {
 } from "@/types";
 
 const person: Person = {
-  firstName: "Love",
+  firstName: "Kozi",
   lastName: "",
-  name: "Love",
+  name: "Kozi AI",
   role: "Backend Developer",
   avatar: "/images/avatar.jpg",
   email: "hello@lovekhatri.dev",
@@ -147,28 +147,7 @@ const about: About = {
         name: "B.Tech in Artificial Intelligence & Machine Learning",
         description: <>Maharshi Dayanand University, Rohtak (2023-2026)</>,
       },
-      {
-        name: "Diploma in Computer Engineering",
-        description: <>Govt. Polytechnic Sonipat (2020–2023)</>,
-      },
-    ],
-  },
-  technical: {
-    display: true,
-    title: "Technical Skills",
-    skills: [
-      {
-        title: "Backend & Languages",
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "TypeScript",
-            icon: "typescript",
-          },
-          {
+      
             name: "Next.js",
             icon: "nextjs",
           },

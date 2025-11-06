@@ -372,7 +372,7 @@ export default function About() {
                             //@ts-ignore
                             height={image.height}
                           >
-                            <Media
+                            {/* <Media
                               enlarge
                               radius="m"
                               //@ts-ignore
@@ -380,7 +380,7 @@ export default function About() {
                               //@ts-ignore
                               alt={image.alt}
                               //@ts-ignore
-                              src={image.src}
+                              src={image.src} */}
                             />
                           </Flex>
                         ))}
